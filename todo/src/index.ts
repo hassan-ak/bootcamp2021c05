@@ -13,5 +13,8 @@ tcollection2.addTodo("Second Collection task Two");
 tcollection1.taskDone(1);
 tcollection2.taskDone(2);
 
-tcollection1.printAll();
+// tcollection1.printAll();
+console.log("*****************");
 tcollection2.printAll();
+console.log("*****************");
+tcollection2.getTodoItems(false).forEach((item) => item.printTask());
