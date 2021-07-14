@@ -17,6 +17,11 @@ export class TaskCollection {
     let task: Task = this.tasks.find((task) => task.taskId == taskId);
     task.done = true;
   }
+  public getTodoItems(includeComplete: boolean): Task[] {
+    return [...this.itemMap.values()].filter(
+      (item) => includeComplete || !item.done
+    );
+  }
   public printAll(): void {
     this.tasks.forEach((task) => {
       task.printTask();
