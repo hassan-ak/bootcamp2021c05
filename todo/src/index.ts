@@ -1,5 +1,6 @@
 import { Task } from "./Task";
 import { TaskCollection } from "./TaskCollection";
+import * as inquirer from "inquirer";
 
 let tcollection1: TaskCollection = new TaskCollection();
 let tcollection2: TaskCollection = new TaskCollection();
