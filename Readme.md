@@ -1,6 +1,8 @@
-# bootcamp2021c05 - Building Advanced Todo App in Typescript
+# bootcamp2021c05 - Fast Track Review of TypeScript - Building Todo App in Typescript - Advance Todo App in Typescript
 
 ## Advance Todo App in Typescript
+- Create todo app in typescript using third party packages
+- CLI app
 
 ### Class 5 Videos: Advance Todo App in Typescript
 
